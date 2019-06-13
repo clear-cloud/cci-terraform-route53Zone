@@ -6,6 +6,6 @@ resource "aws_route53_zone" "vpc_public_zone" {
     Environment   = "${var.environment}"
     Description   = "PublicZone"
     Contact       = "${var.vpc_contact}"
-    Orchestration = "${var.global_orchestration}"
+    Orchestration = "${var.orchestration}"
   }
 }
